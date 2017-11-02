@@ -65,31 +65,31 @@ according to the schedule, which you specify in your Google table.</p>
     ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8
     ```
 4. <h4>Put all settings in the application.yml<h4>
-   ```yaml
-   spring:
+  ```yaml
+  spring:
       datasource:
         #put your database name instead of "userbase" and correct port for your localhost
         url: jdbc:mysql://localhost:3306/userbase?serverTimezone=Europe/Moscow&verifyServerCertificate=false&useSSL=true
         username: root #your login
         password: root #your password
      
-   vk:
+  vk:
       application-id:  #application ID  (for example: 8547651)
       application-secret:  #application Secret (for example: phPut7JeX8DLfpKfGHiZ) 
       access-token: #access token (for example: dfg68dfg4848e1d8bf9a55718b21f4083da4r9y87rty846f5h935ae75ec0e3351ab654178f7y8)
       api-version: 5.68 # vk api version
    
-   google:
+  google:
       spreadsheetId: # table id in Google (for example: 1n3H8D_AZmwt7snEHLWjgxvIU1yxpl2wnQN2lkhHvu6w)
       tableName:  # list name of table (for example: Test1, or you can use Range like A1:E4)
       apiKey: # secret API key from your google project (for example: AIzaSyDzZjamreSxO6MbsoW57OEd5i8hWS75ErE)
    
-   users:
+  users:
       domainColumnNum: 0 # put the Num of column from your Google sheet, when you want to save the VK domain of each users
       nameColumnNum: 1 #num of column for users names
       dateColumnNum: 2 #num of column for date of task for users
       taskColumnNum: 3 #task-message for user
-   ```
+  ```
     
 5.  <h4>Prepare your Scheduler periodicity<h4> 
   
