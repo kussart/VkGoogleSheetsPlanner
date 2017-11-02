@@ -36,19 +36,19 @@ according to the schedule, which you specify in your Google table.</p>
    Register your VK application and read the instruction how to do it, using
     <a href="https://vk.com/dev/manuals"> VK API Documentation</a>
     
-    ![alt text](https://4.downloader.disk.yandex.ru/disk/d6f01e78584efdcfc8cd637aa40f14d77c9f04b22186ea68662ae018bbf87080/59fb7ff8/PcVKaV0E5tQ2noQ5gYGlGNShcZPI61i1HnkyYnNzFl_luHRjGasGaKrbtmyB7wvmSv4w3u-r-SvDekprx6DgjQ%3D%3D?uid=0&filename=vk%20developers_19-28-09.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=66235&hid=122b9944a6a67c194720d896f625e642&media_type=image&tknv=v2&etag=5584d5d11a77e0e25cfce8dd766ef6fe)
+   ![alt text](https://4.downloader.disk.yandex.ru/disk/d6f01e78584efdcfc8cd637aa40f14d77c9f04b22186ea68662ae018bbf87080/59fb7ff8/PcVKaV0E5tQ2noQ5gYGlGNShcZPI61i1HnkyYnNzFl_luHRjGasGaKrbtmyB7wvmSv4w3u-r-SvDekprx6DgjQ%3D%3D?uid=0&filename=vk%20developers_19-28-09.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=66235&hid=122b9944a6a67c194720d896f625e642&media_type=image&tknv=v2&etag=5584d5d11a77e0e25cfce8dd766ef6fe)
     
     Remember that we will use private message to send each task. 
     In this case all users in your table need to be in your friend-list in VK, 
     or have open Message Sending access for every people.
     
     Finally, we need to save in our service YML file these properties from your VK app:
-         <ul>
-        <li>application-id</li>
-        <li>application-secret</li>
-        <li>access-token</li>
-        <li>api-version</li>
-        </ul>
+   <ul>
+    <li> application-id</li>
+    <li> application-secret</li>
+    <li> access-token</li>
+    <li> api-version</li>
+   </ul>
     
 3.  <h4>Local Data Base</h4>
 
