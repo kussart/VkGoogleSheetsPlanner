@@ -53,8 +53,6 @@ public class GoogleServiceImpl implements GoogleService {
         this.userService = userService;
     }
 
-    //ежедневный запуск в 21:00 по Москве
-    //@Scheduled(cron = "0 0 21 * * *", zone = "Europe/Moscow")
     @Scheduled(fixedDelay = 10000)
     @Override
     public void getUsersMessagesForVkPlanner() throws IOException, GoogleServiceException {
